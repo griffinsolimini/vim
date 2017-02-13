@@ -4,3 +4,12 @@
 [submodule "bundle/airline-themes"]
 	path = bundle/airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "bundle/bundle/solarized"]
+	path = bundle/bundle/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/commenter"]
+	path = bundle/commenter
+	url = https://github.com/scrooloose/nerdcommenter.git
