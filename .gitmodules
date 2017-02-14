@@ -22,3 +22,9 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/minimalist"]
+	path = bundle/minimalist
+	url = https://github.com/dikiaap/minimalist
+[submodule "bundle/codeschool"]
+	path = bundle/codeschool
+	url = https://github.com/antlypls/vim-colors-codeschool.git

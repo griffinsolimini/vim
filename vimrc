@@ -1,14 +1,6 @@
 execute pathogen#infect()
 filetype plugin indent on
 
-" airline fixes
-set laststatus=2
-set guifont=Roboto\ Mono\ Light\ for\ Powerline\ 11
-let g:airline_powerline_fonts = 1
-
-" enable mouse
-set mouse=a
-
 " set line number
 set number
 
@@ -28,12 +20,16 @@ set autoindent
 set expandtab
 
 " solarized colorscheme
-syntax enable
-set background=dark
-colorscheme	solarized
+" syntax enable
+" set background=dark
+" colorscheme	solarized
 
 " background toggle
-call togglebg#map("<F5>")
+" call togglebg#map("<F5>")
+
+set t_Co=256
+syntax on
+colorscheme minimalist
 
 " commenter options
 let g:NERDSpaceDelims = 1
@@ -43,6 +39,9 @@ let g:NERDCommentEmptyLines = 1
 
 " airline options
 " let g:airline#extensions#tabline#enabled = 1
+set laststatus=2
+let g:airline_powerline_fonts = 1
+let g:airline_theme='minimalist'
 
 " Highlight matches when searching
 set hlsearch
