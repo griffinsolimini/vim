@@ -1,31 +1,22 @@
 execute pathogen#infect()
 filetype plugin indent on
 
-" set line number
+" visual settings
 set number
+set cursorline
 
-" Number of visual spaces per tab
-set tabstop=4
+" tab/space settings
+set tabstop=4               " vim interprets \t as four spaces
+set shiftwidth=4            " indents have width of 4 spaces
+set softtabstop=4           " number of columns for tabs
+set expandtab               " tabs are expanded to spaces
 
-" Number of visual spaces per indent
-set shiftwidth=4
-
-" Number of spaces in a tab when editing
-set softtabstop=4
-
-" Use auto indent
+" indentation settings
 set autoindent
 
-" Tabs are tabs
-set expandtab
-
-" solarized colorscheme
-" syntax enable
-" set background=dark
-" colorscheme	solarized
-
-" background toggle
-" call togglebg#map("<F5>")
+" mouse settings
+set ttyfast
+set mouse=a
 
 set t_Co=256
 syntax on
@@ -45,7 +36,4 @@ let g:airline_theme='minimalist'
 
 " Highlight matches when searching
 set hlsearch
-
-" C/C++ options
-set cindent
 
