@@ -7,9 +7,6 @@
 [submodule "bundle/bundle/solarized"]
 	path = bundle/bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/solarized"]
-	path = bundle/solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/commenter"]
 	path = bundle/commenter
 	url = https://github.com/scrooloose/nerdcommenter.git
@@ -25,6 +22,3 @@
 [submodule "bundle/minimalist"]
 	path = bundle/minimalist
 	url = https://github.com/dikiaap/minimalist
-[submodule "bundle/codeschool"]
-	path = bundle/codeschool
-	url = https://github.com/antlypls/vim-colors-codeschool.git
