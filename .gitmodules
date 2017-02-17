@@ -22,3 +22,6 @@
 [submodule "bundle/minimalist"]
 	path = bundle/minimalist
 	url = https://github.com/dikiaap/minimalist
+[submodule "bundle/jellybeans"]
+	path = bundle/jellybeans
+	url = https://github.com/nanotech/jellybeans.vim.git
