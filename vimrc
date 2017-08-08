@@ -1,6 +1,8 @@
 execute pathogen#infect()
 filetype plugin indent on
 
+set backspace=2
+
 " visual settings
 set number
 set cursorline
@@ -18,9 +20,9 @@ set autoindent
 set ttyfast
 set mouse=a
 
-set t_Co=256
+" set t_Co=256
 syntax on
-colorscheme minimalist
+colorscheme minimalist 
 
 " commenter options
 let g:NERDSpaceDelims = 1
@@ -36,4 +38,17 @@ let g:airline_theme='minimalist'
 
 " Highlight matches when searching
 set hlsearch
+
+if has("gui_running")
+    " au VimEnter * NERDTree
+    if has("gui_win32")
+        set guifont=Consolas:h11:cANSI
+    endif
+endif
+
+" Window navigation keymappings
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
 
