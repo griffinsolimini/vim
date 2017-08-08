@@ -1,12 +1,12 @@
 Installation: 
 
-Mac/Linux:
-
+<b>Mac/Linux:<b>
 git clone https://github.com/griffinsolimini/vim.git ~/.vim
 <br>
 ./.vim/setup.sh
 
-Windows:
-git clone https://github.com/griffinsolimini/vim.git $HOME/vimfiles
+<b>Windows:<b>
+git clone https://github.com/griffinsolimini/vim.git %HOMEPATH%/vimfiles
 <br>
+vimfiles\setup.cmd
 
