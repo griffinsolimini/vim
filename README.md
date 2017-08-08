@@ -17,7 +17,7 @@
 </h3>
 
 <p>
-  git clone https://github.com/griffinsolimini/vim.git %HOMEPATH%/vimfiles
+  git clone https://github.com/griffinsolimini/vim.git %HOMEPATH%\vimfiles
   <br>
   vimfiles\setup.cmd
 </p>
