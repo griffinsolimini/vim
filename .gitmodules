@@ -25,3 +25,6 @@
 [submodule "bundle/jellybeans"]
 	path = bundle/jellybeans
 	url = https://github.com/nanotech/jellybeans.vim.git
+[submodule "bundle/conquegdb"]
+	path = bundle/conquegdb
+	url = https://github.com/vim-scripts/Conque-GDB

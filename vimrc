@@ -20,7 +20,7 @@ set mouse=a
 
 set t_Co=256
 syntax on
-colorscheme minimalist
+colorscheme minimalist 
 
 " commenter options
 let g:NERDSpaceDelims = 1
@@ -32,8 +32,10 @@ let g:NERDCommentEmptyLines = 1
 " let g:airline#extensions#tabline#enabled = 1
 set laststatus=2
 let g:airline_powerline_fonts = 1
-let g:airline_theme='minimalist'
+" let g:airline_theme='minimalist'
 
 " Highlight matches when searching
 set hlsearch
+
+set splitright
 
